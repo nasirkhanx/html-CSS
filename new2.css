@@ -1,0 +1,9 @@
+h1{
+    font-family: "Allura",arial;/* here arial is a fall back*/
+    font-size: 3em;
+}
+p{/*if we want to add font from local computer then 1)download font 2)place ttf in the folder where html and CSS is 3)@font-face {src:path... where the ttf is placed}*/
+    font-family: "lucida console","courier new";
+    font-size: 0.8em; /* here 1em means that 100% */
+    font-weight: bold;
+}
