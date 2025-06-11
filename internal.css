@@ -1,0 +1,91 @@
+body{
+    background-color: rgb(177, 169, 169);
+}
+#H1{
+    border-style: solid;/*none, solid, dashed, dotted, double, groove, ridge, inset, outset, hidden*/
+    border-width: 3px;
+    display: inline-block;/*this will fit only width of content written not full. If I remove this border will be shown on full width*/
+    border-color: blueviolet;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#D1{
+    text-align: center;
+}
+
+#p1
+{
+border-top: 3px solid red;
+border-bottom: 3px solid burlywood;
+border-right: 3px solid yellow;
+border-left: 3px solid orange;
+}
+
+#H2{
+    border-style: double;/*none, solid, dashed, dotted, double, groove, ridge, inset, outset, hidden*/
+    border-width: 3px;
+    display: inline-block;/*this will fit only width of content written not full. If I remove this border will be shown on full width*/
+    border-color: rgb(247, 0, 0);
+    border-radius: 10px;
+    text-align: center;
+    text-shadow: 3px 4px 4px rebeccapurple      ,     -3px -4px 4px rgb(27, 228, 255);/*here 3px is horizontal and 4px is verttical offsets while 3rd parameter is blur*/
+    
+}
+
+#D2{
+    text-align: center;
+}
+
+#box1
+{
+    
+    width: 100px;
+    height: 100px;
+    background-color: rgb(19, 240, 111);
+    border-radius: 1.5em;
+    box-shadow: 6px 6px 4px rebeccapurple      ,     -6px -6px 4px rgb(27, 69, 255);
+
+    display: flex;/*if we want it to show in the center hten we have to write this we are not creating buttons here*/ 
+    justify-content: center;  /* horizontal */
+    align-items: center;      /* vertical */
+    
+}
+
+#box2
+{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(19, 240, 111);
+    border-radius: 1.5em;
+    box-shadow: 6px 6px 4px rebeccapurple      ,     -6px -6px 4px rgb(27, 69, 255);
+
+    display: flex;/*if we want it to show in the center hten we have to write this we are not creating buttons here*/ 
+    justify-content: center;  /* horizontal */
+    align-items: center;      /* vertical */
+    margin-left: auto;/*margin is space around an element here */
+    margin-top: 50px;
+    margin: auto;
+}
+
+#box3
+{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(19, 240, 111);
+    border-radius: 1.5em;
+    box-shadow: 6px 6px 4px rebeccapurple      ,     -6px -6px 4px rgb(27, 69, 255);
+
+    display: flex;/*if we want it to show in the center hten we have to write this we are not creating buttons here*/ 
+    justify-content: center;  /* horizontal */
+    align-items: center;      /* vertical */
+    margin: auto;
+    margin-top: 50px;
+}
+
+.box-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
