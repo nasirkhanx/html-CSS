@@ -1,0 +1,51 @@
+#box1
+{
+    height: 150px;
+    width: 150px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-radius: 5px;
+    text-align: center;
+    float: left;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 6px 4px 4px  rgb(76, 116, 66) ;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+#box2
+{
+    float: right;
+}
+#D1
+{
+    border-style: solid;
+    display: flow-root;
+}
+
+#D2
+{
+    border-style: solid;
+    margin-top: 5px;
+    border-radius: 5px;
+    width: 200px;
+    height: 80px;
+    overflow: auto;
+    display: inline-block;
+}
+
+#D3
+{
+    display: inline-block;
+    border-style: solid;
+    margin-top: 5px;
+    border-radius: 5px;
+    width: 200px;
+    height: 80px;
+    overflow: scroll;
+    
+}
