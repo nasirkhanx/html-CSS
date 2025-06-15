@@ -1,0 +1,99 @@
+
+/*body
+{
+    background-image: url(mountain.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+    */
+#box1
+{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(31, 247, 247);
+    border-radius: 10px;
+    position: sticky;/*relative,fixed,static,absolute,sticky,static*/
+    top: 10px;
+}
+#box2
+{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(247, 64, 64);
+    border-radius: 10px;
+    position: absolute;/*relative,fixed,absolute,sticky,static*/
+    top: 30px;
+    left: 30px;
+}
+
+#container + p /*child >,general siblings ~,adjacent sibling +*/
+{
+background-color: yellow;
+}
+
+
+.HOVER:hover
+{
+    display: inline-block;
+    color: red;
+}
+
+
+#box3
+{
+    height: 60px;
+    width: 100px;
+    display: flex;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#effect
+{
+    background-color: palevioletred;
+    font-size: 30px;
+    display: none;
+    margin-top: 5px;
+}
+
+#box3:hover +p{
+    display: block;
+}
+
+h1::first-letter{
+    font-size: 50px;
+}
+
+/*#fruit li::after
+{
+    content: "🍎";
+}
+*/
+#apple::before
+{
+    content: "🍎";
+}
+
+#orange::before
+{
+    content: "🟠";
+}
+
+#banana::before
+{
+    content: "🍌";
+}
+
+#p1::selection
+{
+background-color: rgb(3, 3, 3);
+color: green;
+}
+
+#fruit li::marker{
+    content: "⚡";
+}
